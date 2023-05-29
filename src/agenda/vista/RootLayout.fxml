@@ -23,11 +23,16 @@
               <MenuItem mnemonicParsing="false" text="Delete" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-            </items>
-          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Estadísticas">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleMostarEstadisticas" text="Mostrar Estadisticas" />
+               </items>
+            </Menu>
         </menus>
       </MenuBar>
    </top>

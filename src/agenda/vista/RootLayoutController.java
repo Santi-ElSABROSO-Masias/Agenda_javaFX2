@@ -121,4 +121,12 @@ public class RootLayoutController {
     private void handleExit() {
         System.exit(0);
     }
+    
+    /**
+ * Opens the birthday statistics.
+ */
+    @FXML
+    private void handleMostarEstadisticas() {
+    mainApp.Mostrar_Estadisticas_de_Cumpleaños();
+}
 }
